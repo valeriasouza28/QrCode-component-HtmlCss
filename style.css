@@ -1,0 +1,60 @@
+:root {
+  --bg-size: 1020px;
+}
+
+@media (max-width: 375px) {
+  :root {
+    --bg-size: 300px;
+  }
+}
+
+.main {
+  background-color: #dcecfc;
+  /* margin: auto; */
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  /* position: relative; */
+}
+
+.main-center {
+  margin-top: 100px;
+  width: 290px;
+  height: 450px;
+  /* margin-top: 326px; */
+  align-items: center;
+  text-align: center;
+  /* position: relative; */
+
+  background-color: white;
+
+  border-radius: 15px;
+}
+
+.qrcode img {
+  margin-top: 18px;
+  align-items: center;
+  border-radius: 12px;
+  width: 253px;
+  height: 254px;
+}
+
+.first-text {
+  font-family: inter;
+  font-weight: bold;
+  color: #242b38;
+  font-size: 14px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.second-text {
+  font-family: inter;
+  font-weight: regular;
+  color: #808080;
+  font-size: 12px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
