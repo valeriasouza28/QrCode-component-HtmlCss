@@ -4,32 +4,31 @@
 
 @media (max-width: 375px) {
   :root {
-    --bg-size: 300px;
+    --bg-size: 320px;
   }
 }
 
 .main {
-  background-color: #dcecfc;
-  /* margin: auto; */
+  margin: auto;
   align-items: center;
   text-align: center;
   display: flex;
   justify-content: center;
   height: 700px;
   /* position: relative; */
+  
+  background-color: hsl(212, 45%, 89%);
 }
 
 .main-center {
   margin-top: 100px;
-  padding:  16px 20px;
-  /*width: 290px;*/
-  /*height: 450px;*/
-  /* margin-top: 326px; */
+  
+  width: 290px;
+  height: 450px;
   align-items: center;
   text-align: center;
-  /* position: relative; */
 
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
 
   border-radius: 15px;
 }
@@ -43,18 +42,18 @@
 }
 
 .first-text {
-  font-family: inter;
-  font-weight: bold;
-  color: #242b38;
+  font-family: 'Outfit', sans-serif;
+  font-weight: Bold;
+  color: hsl(218, 44%, 22%);
   font-size: 14px;
   margin-left: 28px;
   margin-right: 28px;
 }
 
 .second-text {
-  font-family: inter;
-  font-weight: regular;
-  color: #808080;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 'regular';
+  color:  hsl(220, 15%, 55%);
   font-size: 12px;
   margin-left: 28px;
   margin-right: 28px;
