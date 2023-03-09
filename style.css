@@ -8,6 +8,17 @@
   }
 }
 
+/*reseta boxes*/
+* {
+  margin: 0;
+  padding: 0;
+  border: solid 1px red;
+}
+
+body {
+  /*border: solid 2px red;*/
+}
+
 .main {
   margin: auto;
   align-items: center;
@@ -21,10 +32,13 @@
 }
 
 .main-center {
-  margin-top: 100px;
+  margin-top: 10px;
+  margin-left: 145px;
+  margin-right: 145px;
+  margin-bottom: 0px;
   
-  width: 290px;
-  height: 450px;
+  /*width: 290px;*/
+  /*height: 450px;*/
   align-items: center;
   text-align: center;
 
@@ -33,10 +47,18 @@
   border-radius: 15px;
 }
 
+.background-qrcode {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px; 
+  margin-bottom: 20px;
+}
+
 .qrcode img {
-  margin-top: 18px;
+  
   align-items: center;
   border-radius: 12px;
+  
   width: 253px;
   height: 254px;
 }
@@ -48,6 +70,7 @@
   font-size: 14px;
   margin-left: 28px;
   margin-right: 28px;
+  margin-bottom: 20px;
 }
 
 .second-text {
@@ -57,4 +80,5 @@
   font-size: 12px;
   margin-left: 28px;
   margin-right: 28px;
+  margin-bottom: 60px;
 }
