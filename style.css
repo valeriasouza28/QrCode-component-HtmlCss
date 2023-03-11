@@ -1,3 +1,9 @@
+/*reseta boxes*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --bg-size: 1020px;
 }
@@ -8,23 +14,13 @@
   }
 }
 
-
-
-/*reseta boxes*/
-* {
-  margin: 0;
-  padding: 0;
-  
-  
-}
-
 .main {
   margin: auto;
   align-items: center;
   text-align: center;
   display: flex;
   justify-content: center;
-  
+  max-width: var(--bg-size) ;
   height: 800px;
   background-color: hsl(212, 45%, 89%);
 }
@@ -38,6 +34,7 @@
   height: 450px;
   align-items: center;
   text-align: center;
+
 
   background-color: hsl(0, 0%, 100%);
 
@@ -53,6 +50,7 @@
     align-items: center;
     text-align: center;
     border-radius: 15px;
+    max-width: var(--bg-size) ;
 
     background-color: hsl(0, 0%, 100%);
   }
